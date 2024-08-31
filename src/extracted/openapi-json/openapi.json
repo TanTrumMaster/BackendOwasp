@@ -1,0 +1,479 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "admin",
+    "description": "Collection generated programmatically from Node.js server",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://backend-testing2-0.onrender.com"
+    }
+  ],
+  "tags": [
+    {
+      "name": "authRoute"
+    },
+    {
+      "name": "imageRoute"
+    },
+    {
+      "name": "roleRoute"
+    },
+    {
+      "name": "userRoute"
+    }
+  ],
+  "paths": {
+    "/signup": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/signin": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/current": {
+      "get": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "GET authRoute",
+        "description": "GET authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/me": {
+      "get": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "GET authRoute",
+        "description": "GET authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "PUT authRoute",
+        "description": "PUT authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/signout": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/refresh-tokens": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/send-verification-email": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/verify-email": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/forgot-password": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/reset-password": {
+      "post": {
+        "tags": [
+          "authRoute"
+        ],
+        "summary": "POST authRoute",
+        "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/upload": {
+      "post": {
+        "tags": [
+          "imageRoute"
+        ],
+        "summary": "POST imageRoute",
+        "description": "POST imageRoute clonedRepo/src/routes/v1/imageRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "userRoute"
+        ],
+        "summary": "GET userRoute",
+        "description": "GET userRoute clonedRepo/src/routes/v1/userRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "userRoute"
+        ],
+        "summary": "POST userRoute",
+        "description": "POST userRoute clonedRepo/src/routes/v1/userRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/{roleId}": {
+      "get": {
+        "tags": [
+          "roleRoute"
+        ],
+        "summary": "GET roleRoute",
+        "description": "GET roleRoute clonedRepo/src/routes/v1/roleRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "parameters": [
+          {
+            "name": "roleId",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "roleRoute"
+        ],
+        "summary": "PUT roleRoute",
+        "description": "PUT roleRoute clonedRepo/src/routes/v1/roleRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "parameters": [
+          {
+            "name": "roleId",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "roleRoute"
+        ],
+        "summary": "DELETE roleRoute",
+        "description": "DELETE roleRoute clonedRepo/src/routes/v1/roleRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "parameters": [
+          {
+            "name": "roleId",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/{userId}": {
+      "get": {
+        "tags": [
+          "userRoute"
+        ],
+        "summary": "GET userRoute",
+        "description": "GET userRoute clonedRepo/src/routes/v1/userRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "userRoute"
+        ],
+        "summary": "DELETE userRoute",
+        "description": "DELETE userRoute clonedRepo/src/routes/v1/userRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    },
+    "/{userkadsadasd}": {
+      "put": {
+        "tags": [
+          "userRoute"
+        ],
+        "summary": "PUT userRoute",
+        "description": "PUT userRoute clonedRepo/src/routes/v1/userRoute.js",
+        "requestBody": {
+          "content": {}
+        },
+        "parameters": [
+          {
+            "name": "userkadsadasd",
+            "in": "path",
+            "schema": {
+              "type": "string"
+            },
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {}
+            }
+          }
+        }
+      }
+    }
+  }
+}

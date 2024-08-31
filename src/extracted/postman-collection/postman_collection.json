@@ -1,0 +1,271 @@
+{
+  "info": {
+    "name": "admin",
+    "description": "Collection generated programmatically from Node.js server",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "authRoute",
+      "item": [
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/signup",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/signin",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "GET authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/current",
+            "method": "get",
+            "header": [],
+            "body": {},
+            "description": "GET authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "GET authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/me",
+            "method": "get",
+            "header": [],
+            "body": {},
+            "description": "GET authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/me",
+            "method": "put",
+            "header": [],
+            "body": {},
+            "description": "PUT authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/signout",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/refresh-tokens",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/send-verification-email",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/verify-email",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/forgot-password",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST authRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/reset-password",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST authRoute clonedRepo/src/routes/v1/authRoute.js"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "imageRoute",
+      "item": [
+        {
+          "name": "POST imageRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/upload",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST imageRoute clonedRepo/src/routes/v1/imageRoute.js"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "roleRoute",
+      "item": [
+        {
+          "name": "GET roleRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/",
+            "method": "get",
+            "header": [],
+            "body": {},
+            "description": "GET roleRoute clonedRepo/src/routes/v1/roleRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST roleRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST roleRoute clonedRepo/src/routes/v1/roleRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "GET roleRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/:roleId",
+            "method": "get",
+            "header": [],
+            "body": {},
+            "description": "GET roleRoute clonedRepo/src/routes/v1/roleRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT roleRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/:roleId",
+            "method": "put",
+            "header": [],
+            "body": {},
+            "description": "PUT roleRoute clonedRepo/src/routes/v1/roleRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE roleRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/:roleId",
+            "method": "delete",
+            "header": [],
+            "body": {},
+            "description": "DELETE roleRoute clonedRepo/src/routes/v1/roleRoute.js"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "userRoute",
+      "item": [
+        {
+          "name": "GET userRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/",
+            "method": "get",
+            "header": [],
+            "body": {},
+            "description": "GET userRoute clonedRepo/src/routes/v1/userRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "POST userRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/",
+            "method": "post",
+            "header": [],
+            "body": {},
+            "description": "POST userRoute clonedRepo/src/routes/v1/userRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "GET userRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/:userId",
+            "method": "get",
+            "header": [],
+            "body": {},
+            "description": "GET userRoute clonedRepo/src/routes/v1/userRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "PUT userRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/:userkadsadasd",
+            "method": "put",
+            "header": [],
+            "body": {},
+            "description": "PUT userRoute clonedRepo/src/routes/v1/userRoute.js"
+          },
+          "response": []
+        },
+        {
+          "name": "DELETE userRoute",
+          "request": {
+            "url": "https://backend-testing2-0.onrender.com/:userId",
+            "method": "delete",
+            "header": [],
+            "body": {},
+            "description": "DELETE userRoute clonedRepo/src/routes/v1/userRoute.js"
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
